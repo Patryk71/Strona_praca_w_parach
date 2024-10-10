@@ -11,3 +11,7 @@ nav{
 a{
     color: white;
 }
+
+a:link {
+color: red;
+}

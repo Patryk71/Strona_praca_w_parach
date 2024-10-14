@@ -1,17 +1,62 @@
-body{
-    background-color: white;
+
+body{ /* kolor tła */
+    background-color: rgb(247, 243, 243);
 }
 
 nav{
-    background-color: #454545;
-    height: 50px;
     width: auto;
+    text-align: center;
 }
 
-a{
+a{  /* kolor tekstu linku */
     color: white;
 }
 
-a:link {
-color: red;
+a:link { /* brak dekoracji tekstu linku */
+    text-decoration: none;
+}
+
+.option{   /* opcja w głównym menu wyboru podstron */
+    display: block;
+    text-align: center;
+    background-color: rgb(119, 82, 39);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+.option:hover{ /* funkcja najechania na pole */
+    display: block;
+    text-align: center;
+    background-color: rgb(160, 117, 68);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.choosed_option{
+    display: block;
+    text-align: center;
+    background-color: rgb(160, 117, 68);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+table { /* przesunięcie na wierzch tabeli z menu oraz wyśrodkowanie */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+main{ /* część główna */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:1200px;
+    height: 2000px; /* tymczasowo aż nie będzie normalnego tekstu */
+    background-color: rgb(236, 226, 226);
 }

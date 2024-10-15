@@ -2,3 +2,7 @@
 ## Przydatne strny:
 [learn git branching](https://learngitbranching.js.org/?locale=pl)
 [git-school-](https://git-school.github.io/visualizing-git/#:~:text=Visualizing%20Git.%20Have%20fun!%20Local%20Repository%20HEAD:%20master)
+
+
+
+https://patryk71.github.io/Strona_praca_w_parach/index.html

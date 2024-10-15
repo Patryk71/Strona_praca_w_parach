@@ -58,10 +58,9 @@ main{ /* część główna */
     width:1200px;
     height: 2000px; /* tymczasowo aż nie będzie normalnego tekstu */
     background-color: rgb(236, 226, 226);
+    font-size: 30px;
 }
 img{
-    width: 400px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 900px;
+    height: 680px;
 }

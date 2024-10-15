@@ -82,3 +82,6 @@ footer{
     text-align: center;
     color: white;
 }
+ol{
+    list-style-type: none;
+}

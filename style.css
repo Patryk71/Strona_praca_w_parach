@@ -48,8 +48,7 @@ a:link { /* brak dekoracji tekstu linku */
 table { /* przesunięcie na wierzch tabeli z menu oraz wyśrodkowanie */
     position: relative;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;   
 }
 
 main{ /* część główna */

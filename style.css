@@ -2,6 +2,7 @@
 body{ /* kolor tła */
     background-image: url("https://img.freepik.com/free-photo/top-view-delicious-kebab-with-other-dishes-copy-space_23-2148685494.jpg");
     background-color: #c7ceb6;
+    background-color opacity: 0.5;
 }
 
 nav{

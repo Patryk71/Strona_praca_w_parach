@@ -58,9 +58,12 @@ main{ /* część główna */
     width:1200px;
     height: auto; 
     background-color: rgb(236, 226, 226);
-    font-size: 30px;
+    font-size: 20px;
 }
 img{
     width: 900px;
     height: 680px;
+}
+h2{
+    font-size: 40px;
 }

@@ -1,41 +1,67 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="https://mycompanypolska.pl/images/11849/7991c0e8c438825b4e140a3033d24a89.webp">
-    <link rel="stylesheet" href="style.css">
-    <title>Kebaby</title>
-</head>
-<body>
-    <nav>
-        <table>
-            <tr>
-                <td><a><div class="choosed_option">Kebaby</div></a></td>
-                <td><a href="Kebaby-Alternatywy.html"><div class="option">Alternatywy dla Kebabów</div></a></td>
-            </tr>
-        </table>
-    </nav>
-    
-    <main>
-        <h1>Kebaby</h1>
-    </main>
-    <div class="opis">
-        <p1>Czym jest kebab?</p1>
-        <p2>Kebab jest turecką potrawą. Określenie obejmuje ponad dwadzieścia odmian tej potrawy (m.in. İskender kebab, Adana kebab czy şiş kebab) i nie jest jednoznaczne. </p2>
-        <img src="https://www.sapkokebab.com/wp-content/uploads/2016/10/pic.png">
-    </div>
-    <div class="galeria zdjec"> 
-        <img src="https://amamkebab.pl/wp-content/uploads/2024/08/Skad-pochodzi-kebab-Krotka-historia.webp">
-        <img src="https://krytykakulinarna.com/wp-content/uploads/2020/03/kebab_przepis_4.jpg">
-        <img src="https://cdn.aniagotuje.com/pictures/articles/2023/07/45574163-v-1500x1500.jpg">
-    </div>
-    <div class="wikipedia">
-        <h1>Czym jest kebab w Polsce?</h1>
-        <p1>W Polsce słowo kebab oznacza zazwyczaj döner kebap (w języku tureckim „obracające się pieczone mięso”), czyli danie kuchni tureckiej[3] w postaci odpowiednio doprawionego mięsa baraniego (w tym jagnięcego)[4], skrawanego z pionowego rożna, podawane z surówką warzywną</p1>
-    </div>
-    <footer>
-        <p>Stworzona przez: Patryka Gorzelaka, Liwię Borowską. 2024</p>
-    </footer>
-</body>
-</html>
+
+body{ /* kolor tła */
+    background-color: rgb(247, 243, 243);
+}
+
+nav{
+    width: auto;
+    text-align: center;
+}
+
+a{  /* kolor tekstu linku */
+    color: white;
+}
+
+a:link { /* brak dekoracji tekstu linku */
+    text-decoration: none;
+}
+
+.option{   /* opcja w głównym menu wyboru podstron */
+    display: block;
+    text-align: center;
+    background-color: rgb(119, 82, 39);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+.option:hover{ /* funkcja najechania na pole */
+    display: block;
+    text-align: center;
+    background-color: rgb(160, 117, 68);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.choosed_option{
+    display: block;
+    text-align: center;
+    background-color: rgb(160, 117, 68);
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+table { /* przesunięcie na wierzch tabeli z menu oraz wyśrodkowanie */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+main{ /* część główna */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:1200px;
+    height: 2000px; /* tymczasowo aż nie będzie normalnego tekstu */
+    background-color: rgb(236, 226, 226);
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,5 +1,4 @@
 
-
 body{ /* kolor tła */
     background-color: rgb(247, 243, 243);
 }
@@ -68,9 +67,6 @@ img{
 h2{
     font-size: 40px;
 }
-.opis p1 {
-    font-size: 40px;
-    color: cadetblue;
-
-
+ul{
+    list-style-type: none;
 }
